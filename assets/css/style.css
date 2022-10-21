@@ -8,7 +8,64 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 a {
+  text-decoration: none;
+}
+
+.container {
+  width: min(100% - 40px, 1110px);
+  margin-inline: auto;
+}
+
+.header {
+  background-color: #eeeff1;
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+
+.navbar {
+  margin-bottom: 162px;
+}
+.navbar__list {
+  list-style: none;
+  display: flex;
+  gap: 42px;
+}
+.navbar__item {
+}
+.navbar__link {
+  color: #000000;
+}
+.navbar__link--active {
+  color: #34547a;
+  font-weight: 500;
+}
+
+.content {
+  max-width: 500px;
+}
+.content__title {
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+.content__description {
+  margin-bottom: 65px;
+  line-height: 1.625;
+  color: #727272;
+}
+.content__link {
+  display: block;
+  width: 225px;
+  height: 65px;
+  background: #34547a;
+  padding: 0.5em;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
